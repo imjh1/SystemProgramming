@@ -10,7 +10,7 @@ myshell.(c,h)
         
         Background Process(phase 3)
         
-        + JOB list
+        - JOB list
         
-        + process control(fg, bg, jobs, kill)
+        - process control(fg, bg, jobs, kill)
         
