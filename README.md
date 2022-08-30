@@ -2,6 +2,7 @@
 
 ### Projects
 
-  1. MyShell
-  2. Concurrent Stock Server
-  3. My Memory Allocator
+
+  + MyShell
+  + Concurrent Stock Server
+  + My Memory Allocator
