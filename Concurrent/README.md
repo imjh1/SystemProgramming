@@ -9,7 +9,7 @@
   Event-based 방식과 Thread-based 방식으로 각각 Concurrent stock server를 구현
   
   
-  
+<hr/>  
 #### 주식 서버 설계
 
 ###### 주식 관리
