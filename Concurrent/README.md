@@ -8,6 +8,8 @@
   
   Event-based 방식과 Thread-based 방식으로 각각 Concurrent stock server를 구현
   
+  
+  
 #### 주식 서버 설계
 
 ###### 주식 관리
@@ -15,7 +17,7 @@
   + 주식은 stock.txt 파일에 table형태로 관리
   + Table의 각 행은 주식 ID, 잔여 주식, 주식 단가를 나타냄
 
-####### 가정
+###### 가정
 
   + 주식 단가는 변동x, 잔여 주식 수만 변동
   + client의 주식 판매 요청은 자유롭게 가능(client가 보유하고 있는 주식 고려 x)
