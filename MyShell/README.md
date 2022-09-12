@@ -11,7 +11,7 @@
     <img width="505" alt="phase1_run" src="https://user-images.githubusercontent.com/91405382/187443647-faf7f276-e39b-4234-ab0c-4f5aa975a909.png">
 + ### Phase2
 
-  ###### 개발 목표: pipeline을 통한 command(ls | grep " ") 입력에 대해 처리하도록 구현(foreground process)
+  ###### 개발 목표: pipeline을 통한 command( command1 | command2 | ... ) 입력에 대해 처리하도록 구현(foreground process)
   
   
   ###### 실행 결과
