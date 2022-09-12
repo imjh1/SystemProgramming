@@ -27,7 +27,17 @@
 ###### 동작
 
   1. 서버 실행
+  
+    ./stockserver <port>
   2. 주식 정보가 저장된 파일(stock.txt)로부터 주식 정보를 읽어 메모리에 load
-    2-1. 주식 정보는 주식 ID를 기준으로 BST로 저장하여 구매, 판매 요청을 효율적으로 처리
-  3. Client의 요청(Sell, Buy, Show) 처리
-  4. 서버 종료시 메모리의 주식 정보를 stock.txt에 저장
+  
+    주식 정보는 주식 ID를 기준으로 BST로 저장하여 client의 구매, 판매 요청을 효율적으로 처리
+  3. Client가 server에 접속
+  
+    ./stockclient <host> <port>
+  4. Client의 요청(Sell, Buy, Show) 처리
+  
+    show
+    buy <stock ID> <count>
+    sell <stock ID> <count>
+  5. 서버 종료시 메모리에 저장되어 있는 주식 정보를 stock.txt에 store
