@@ -49,3 +49,8 @@ To get a list of the driver flags:
 
 	unix> mdriver -h
 
+ Result
+ ```
+ ./mdriver -V
+ ```
+ <img width="272" alt="제목 없음" src="https://user-images.githubusercontent.com/91405382/197315319-d5a13de1-68b1-468a-a093-9c2c7029c4b4.png">
